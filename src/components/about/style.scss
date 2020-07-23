@@ -1,0 +1,33 @@
+.about{
+    &-container{
+        padding: 0 250px;
+        background-color: #f7f7f7;
+    }
+    &-column{
+        height: 100vh;
+    }
+    &-row--title{
+        h1{
+            margin-top: 50px;
+        }
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    &-column--text{
+        overflow: auto;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        span {
+            word-break: break-word;
+            letter-spacing: 0.8px;
+            word-spacing: 3.5px;
+            margin: 10px 0;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 1.4;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.home {
+    &-column{
+        background: url("../../../assets/img/background-home.jpg") no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    &-opacity{
+        opacity: 0.5;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        background-color: #000;
+    }
+    &-center--text{
+        z-index: 2;
+        display: block;
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    &-text-big {
+        color: #fff;
+        font-size: 3rem;
+    }
+    &-text-small {
+        color: #fff;
+        font-size: 2rem;
+    }
+}
